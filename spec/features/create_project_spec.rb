@@ -1,6 +1,6 @@
 require "rails_helper"
 
-Rspec.feature "Users can create new projects" do
+RSpec.feature "Users can create new projects" do
 	scenario "With valid attributes" do
 		visit "/"
 		click_link "New Project"
